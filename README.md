@@ -1,3 +1,3 @@
-# Wilcbouw
+# WILCBOUW
 
-Simple static HTML website for the **Wilcbouw** organization.
+Simple static HTML website for the **WILCBOUW** organization.
