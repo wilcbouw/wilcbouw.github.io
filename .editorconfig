@@ -24,11 +24,15 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 quote_type = double
 
-[*.{eslint*,json*,md*,prettier*,svg,todo,version*,vim,xml,yaml,yml}]
+[*.{eslint*,json*,md*,prettier*,svg,todo,vim,xml,yaml,yml}]
 indent_size = 2
 max_line_length = 80
 
-[*.{bash,css,html,js,jsx,mjs,ps1,psd1,psm1,scss,sh,toml,ts,tsx,zsh*}]
+[*.{css,html,js,jsx,mjs,scss,ts,tsx}]
+indent_size = 2
+max_line_length = 80
+
+[*.{bash,ps1,psd1,psm1,sh,toml,zsh*}]
 indent_size = 4
 max_line_length = 80
 
@@ -37,7 +41,7 @@ profile = black
 indent_size = 4
 max_line_length = 80
 
-[{.clang-format,.clang-tidy}]
+[{.clang-format,.clang-tidy,.versionrc}]
 indent_size = 2
 max_line_length = 80
 
