@@ -1,0 +1,19 @@
+{
+  "infile": "CHANGELOG.md",
+  "header": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n\nSee [Conventional Commits](https://conventionalcommits.org/) website, and\n[Standard Version](https://githgub.com/conventional-changelog/standard-version/)\nrepository for commit guidelines.\n\n<!-- markdownlint-disable -->\n<!-- editorconfig-checker-disable-file -->\n\n",
+  "skip": { "bump": false, "changelog": false, "commit": true, "tag": true },
+  "bumpFiles": [{ "type": "json", "filename": "manifest.json" }],
+  "types": [
+    { "hidden": false, "section": "🚀 Enhancements", "type": "feat" },
+    { "hidden": false, "section": "🩹 Fixes", "type": "fix" },
+    { "hidden": false, "section": "🔥 Performance", "type": "perf" },
+    { "hidden": false, "section": "📖 Documentation", "type": "docs" },
+    { "hidden": false, "section": "🧶 Refactors", "type": "refactor" },
+    { "hidden": false, "section": "📮 Chore", "type": "chore" },
+    { "hidden": false, "section": "🎮 Tests", "type": "test" },
+    { "hidden": false, "section": "📦 Build", "type": "build" },
+    { "hidden": false, "section": "🤿 CI", "type": "ci" },
+    { "hidden": false, "section": "🧢 Style", "type": "style" },
+    { "hidden": false, "section": "🚧 Reverts", "type": "revert" }
+  ]
+}
