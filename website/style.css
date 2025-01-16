@@ -7,7 +7,7 @@
 
 :root {
   --primary-color: #171b22;
-  --secondary-color: #fc1db2;
+  --secondary-color: #9f40ff;
   --background-light: #f4f4f4;
   --background-dark: #222;
   --text-light: #ffffff;
@@ -60,7 +60,6 @@ section {
 }
 
 footer {
-  background: var(--text-light);
   color: var(--text-dark);
   text-align: center;
   padding: 10px 0;
@@ -76,7 +75,6 @@ footer {
 }
 
 .service {
-  background: var(--text-light);
   padding: 15px;
   border-radius: 5px;
   flex: 1;
@@ -104,7 +102,6 @@ footer {
 }
 
 .contact {
-  background: var(--text-light);
   color: var(--text-dark);
   padding: 20px;
   text-align: center;
