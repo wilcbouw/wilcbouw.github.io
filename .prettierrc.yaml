@@ -17,10 +17,10 @@
 
 ---
 endOfLine: lf
-printWidth: 80
+printWidth: 120
 semi: false
 singleQuote: false
-tabWidth: 2
+tabWidth: 4
 trailingComma: es5
 useTabs: false
 
@@ -29,17 +29,29 @@ overrides:
     excludeFiles: "CHANGELOG.md"
     options:
       parser: markdown
-      arrowParens: always
-      bracketSpacing: true
-      endOfLine: lf
       printWidth: 80
       proseWrap: always
-      semi: false
-      singleQuote: false
       tabWidth: 2
-      trailingComma: none
-      useTabs: false
+  - files: "*.css"
+    options:
+      parser: css
+      printWidth: 80
+  - files: "*.scss"
+    options:
+      parser: scss
+      printWidth: 80
+  - files: "*.json"
+    options:
+      parser: json
+      printWidth: 80
+      tabWidth: 2
+  - files: "*.jsonc"
+    options:
+      parser: jsonc
+      printWidth: 80
+      tabWidth: 2
   - files: "*.yaml"
     options:
       parser: yaml
+      printWidth: 80
       tabWidth: 2
