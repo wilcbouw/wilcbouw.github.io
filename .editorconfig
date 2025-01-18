@@ -28,9 +28,13 @@ quote_type = double
 indent_size = 2
 max_line_length = 80
 
-[*.{css,html,js,jsx,mjs,scss,ts,tsx}]
-indent_size = 2
+[*.{css,scss}]
+indent_size = 4
 max_line_length = 80
+
+[*.{html,js,jsx,mjs,cjs,ejs,ts,tsx}]
+indent_size = 4
+max_line_length = 120
 
 [*.{bash,ps1,psd1,psm1,sh,toml,zsh*}]
 indent_size = 4
