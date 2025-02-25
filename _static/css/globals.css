@@ -1,0 +1,108 @@
+/*
+ * Copyright (c) 2025 Marcin Różewski, Amarokelab.
+ * All rights reserved.
+ *
+ * Basic stylesheet for the simple static HTML website.
+ */
+
+:root {
+    --primary-color: #171b22;
+    --secondary-color: #9f40ff;
+    --background-light: #f4f4f4;
+    --background-dark: #222;
+    --text-light: #ffffff;
+    --text-dark: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-light);
+    color: var(--text-dark);
+}
+
+header {
+    background: var(--primary-color);
+    color: var(--text-light);
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 120px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background: #444;
+    color: var(--text-light);
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: var(--text-light);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer {
+    color: var(--text-dark);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    margin-top: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.service {
+    padding: 15px;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    color: var(--text-dark);
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.project {
+    background: var(--text-light);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    color: var(--text-dark);
+}
+
+.contact {
+    color: var(--text-dark);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
